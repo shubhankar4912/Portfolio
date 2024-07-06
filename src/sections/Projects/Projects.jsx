@@ -1,8 +1,9 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/viberr.png';
+import blog from '../../assets/blog_.png';
 import freshBurger from '../../assets/fresh-burger.png';
 import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import ewaste from '../../assets/e-waste.jpg';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,29 +12,24 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={blog}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          h3="Blogging App"
+          p=""
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={freshBurger}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
-        />
+          h3="Payment App"
+          p=""
+        /> */}
         <ProjectCard
-          src={hipsster}
+          src={ewaste}
           link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          h3="e-waste locator"
+          p=""
         />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
-        />
+
       </div>
     </section>
   );
