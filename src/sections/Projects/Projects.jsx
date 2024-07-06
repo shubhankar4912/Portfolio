@@ -13,7 +13,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={blog}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/shubhankar4912/Blogging_website"
           h3="Blogging App"
           p=""
         />
@@ -25,7 +25,7 @@ function Projects() {
         /> */}
         <ProjectCard
           src={ewaste}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://github.com/shubhankar4912/SIH"
           h3="e-waste locator"
           p=""
         />
